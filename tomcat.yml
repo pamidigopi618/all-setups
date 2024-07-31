@@ -6,11 +6,11 @@
         dest: "/root/"
 
     - name: untar the apache file
-      command: tar -zxvf apache-tomcat-9.0.87.tar.gz
+      command: tar -zxvf apache-tomcat-9.0.91.tar.gz
 
 
     - name: rename the tomcat
-      command: mv apache-tomcat-9.0.87 tomcat
+      command: mv apache-tomcat-9.0.91 tomcat
       tags: abc
 
     - name: install java
